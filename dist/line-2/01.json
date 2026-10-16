@@ -1,0 +1,30 @@
+{
+  "name": "The Guarded Basket",
+  "image": "https://api.imd.fun/artifacts/e53d1d58fff7a16b3c5a8d8ff8b679bba87030462dd93b08ac23509066f05b84",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Lava"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 1
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "SafeZip"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe keeps safe stones inside a basket and a thorn outside the arch: inspect what enters before admitting it."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Safe bounded ZIP extraction"
+    }
+  ]
+}
