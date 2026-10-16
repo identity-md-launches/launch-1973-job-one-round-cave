@@ -1,0 +1,60 @@
+{
+  "wall": {
+    "path": "artifacts/line-4/wall.png",
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 3080869,
+    "sha256": "6d85fa8599824862d74f425a81b6ce9c9bbe09852be73fa1ad457b5b02f4058e"
+  },
+  "preview": {
+    "path": "dist/line-4/01.jpg",
+    "format": "JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 59440,
+    "sha256": "ba69128b5b9514ce7e3e9dbc3cde9f030eced640bce5e4a54494a89fb9831810"
+  },
+  "input_cave_sha256": "09ee8caaf2f2f23c437db97f072627760da64d33dbd2b3409379a24a4a38d26a",
+  "visual_review": "Contributing worker inspected the displayed full PNG and 512-pixel JPEG; not independent visual approval.",
+  "visible_hands": 2,
+  "digits_on_visible_hands": [
+    5,
+    5
+  ],
+  "handprints_or_stencils": 0,
+  "preserved_features": [
+    "square 1254-pixel framing",
+    "warm rock and torchlight",
+    "overhanging cave roof",
+    "major cracks",
+    "floor and lower lava glints"
+  ],
+  "visual_constraints_checked": [
+    "recognizable wide-mouthed heavy-lidded Pepe",
+    "earth pigments",
+    "rough worn painting",
+    "no letters or numbers",
+    "no caption, logo, signature, border or watermark"
+  ],
+  "unmet_visual_requirements": [],
+  "limitations": [
+    "Generative editing preserves recognizable rock features and framing; exact preservation of every unpainted pixel is not asserted.",
+    "No independent visual reviewer has approved the wall."
+  ],
+  "generation": {
+    "tool": "built-in imagegen",
+    "mode": "precise-object-edit",
+    "prompt": "line-4/wall-prompt.txt"
+  },
+  "checks": {
+    "png_chunk_crcs": "passed",
+    "preview_decoding": "displayed with view_image",
+    "offline_regression_tests": 44,
+    "demo_breaking_findings": 2,
+    "same_real_spec_comparison": {
+      "operations": 5,
+      "findings": 0
+    }
+  }
+}
