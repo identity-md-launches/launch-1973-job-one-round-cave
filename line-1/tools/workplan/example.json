@@ -1,0 +1,9 @@
+{
+  "tasks": [
+    {"id": "read-brief", "minutes": 3},
+    {"id": "implement", "minutes": 12, "after": ["read-brief"]},
+    {"id": "prepare-fixtures", "minutes": 4, "after": ["read-brief"]},
+    {"id": "verify", "minutes": 5, "after": ["implement", "prepare-fixtures"]},
+    {"id": "write-handoff", "minutes": 2, "after": ["verify"]}
+  ]
+}

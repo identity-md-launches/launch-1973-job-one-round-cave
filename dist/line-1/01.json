@@ -1,0 +1,30 @@
+{
+  "name": "Paths Before Footsteps",
+  "image": "https://api.imd.fun/artifacts/3623847bb360b29abd63873ebc6afdce2aea40e33500cb0bdb41490b1ae6675d",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Lava"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 1
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Workplan"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe joins scattered tasks into a path that reaches the sun before time runs out."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Offline dependency and deadline planning"
+    }
+  ]
+}
