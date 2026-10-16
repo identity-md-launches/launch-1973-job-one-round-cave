@@ -1,0 +1,10 @@
+{
+  "vendor/safezip.py": {
+    "source": "line-2/tools/safezip/safezip.py",
+    "sha256": "0b69249b15dac2c7218517a1edd8b1712b7c3bb7100fd567d6dac17e739682bc"
+  },
+  "vendor/apidelta.py": {
+    "source": "line-4/tools/apidelta/apidelta.py",
+    "sha256": "9331dfe89870e60d63da4653d108aeb6621474b662c63ab8cc30082fcdf0b589"
+  }
+}

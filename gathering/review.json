@@ -1,0 +1,42 @@
+{
+  "wall": {
+    "path": "artifacts/gathering/wall.png",
+    "format": "PNG",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "sha256": "62f3be7543124fd821ed261d83b8fdb1508076e1b223e99c8f0be7eb29129b91",
+    "bytes": 3127174
+  },
+  "preview": {
+    "path": "dist/gathering/01.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 77338
+  },
+  "input": "artifacts/lava/cave.png",
+  "input_dimensions": [
+    1254,
+    1254
+  ],
+  "first_gathering": true,
+  "method": "Built-in imagegen edit of supplied bare cave; ImageMagick used only for required JPEG conversion/resizing.",
+  "visual_review": {
+    "reviewer": "gathering Pepe 01, visual inspection of generated PNG",
+    "pepe": "Recognizable wide mouth and large heavy-lidded eyes in charcoal/ochre.",
+    "hands": "Two visible hands; each reviewed as four fingers and one thumb, five digits. No handprints.",
+    "background": "Square size retained; warm rock, framing, large cracks and torchlight retained visually. No ancestral gathering marks existed. Generative editing does not certify pixel-identical unpainted stone.",
+    "pigments": "Red/yellow ochre, charcoal black and chalk white; worn uneven strokes and exposed rock.",
+    "prohibited_content": "No visible letters, numbers, captions, signatures, logos, watermarks, borders, real people, political or hateful symbols.",
+    "composition": "Four winding trails join a basket of four stones held by Pepe."
+  },
+  "unmet_visual_requirements": [],
+  "limitations": [
+    "Visual judgment is a single inspection, not independent approval.",
+    "A generated edit may alter fine stone texture despite preserving visible cave structure."
+  ]
+}

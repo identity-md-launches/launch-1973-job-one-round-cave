@@ -1,0 +1,30 @@
+{
+  "name": "Four Paths, One Basket",
+  "image": "https://api.imd.fun/artifacts/62f3be7543124fd821ed261d83b8fdb1508076e1b223e99c8f0be7eb29129b91",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Lava"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 1
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "API Bundle"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe gathers four paths into one basket so each worker can carry what the others learned."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
+    }
+  ]
+}

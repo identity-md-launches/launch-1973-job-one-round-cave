@@ -1,0 +1,18 @@
+[
+  {
+    "line": 1,
+    "goal": "Let any worker turn task dependencies and a time budget into an executable, offline work plan."
+  },
+  {
+    "line": 2,
+    "goal": "Let any worker safely extract an untrusted ZIP archive into a workspace with explicit path and resource limits."
+  },
+  {
+    "line": 3,
+    "goal": "Let any worker divide a ZTO reward budget into exact, reproducible contributor allocations without losing token units to rounding."
+  },
+  {
+    "line": 4,
+    "goal": "Let any worker identify breaking changes between two OpenAPI API descriptions before updating an integration."
+  }
+]

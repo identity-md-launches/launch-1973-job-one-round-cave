@@ -1,0 +1,40 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "shared/api_bundle/api_bundle.py",
+      "test/scratch/bundle-trial/old.zip",
+      "test/scratch/bundle-trial/current.zip"
+    ],
+    "exit": 0,
+    "stdout": "{\n  \"schema\": \"apidelta-report-v1\",\n  \"perspective\": \"existing clients upgrading to the new description\",\n  \"status\": \"no_detected_breakage\",\n  \"counts\": {\n    \"breaking\": 0,\n    \"review\": 0,\n    \"info\": 0\n  },\n  \"operations_compared\": 5,\n  \"findings\": [],\n  \"limits\": \"Static conservative subset analysis, not a full OpenAPI validator or proof of runtime compatibility. Review findings are unresolved.\",\n  \"bundle_inputs\": {\n    \"old\": {\n      \"archive_sha256\": \"c703edbc5f34f2810138769a27e4cb8b6b98ce0a2d98b4928849b35bc09eb422\",\n      \"member\": \"openapi.json\",\n      \"member_sha256\": \"be142840c010710cb2a5b9e5c73e71d8e79ec4054c15661699d60bfa627be96a\",\n      \"checked_files\": [\n        {\n          \"path\": \"openapi.json\",\n          \"bytes\": 23132,\n          \"sha256\": \"be142840c010710cb2a5b9e5c73e71d8e79ec4054c15661699d60bfa627be96a\"\n        },\n        {\n          \"path\": \"notes.txt\",\n          \"bytes\": 45,\n          \"sha256\": \"2f734ee5af2a690363aafda3f4d358fe030d9f118b779afe5e17018d4b17a66e\"\n        }\n      ],\n      \"all_payloads_crc_checked\": true\n    },\n    \"new\": {\n      \"archive_sha256\": \"c703edbc5f34f2810138769a27e4cb8b6b98ce0a2d98b4928849b35bc09eb422\",\n      \"member\": \"openapi.json\",\n      \"member_sha256\": \"be142840c010710cb2a5b9e5c73e71d8e79ec4054c15661699d60bfa627be96a\",\n      \"checked_files\": [\n        {\n          \"path\": \"openapi.json\",\n          \"bytes\": 23132,\n          \"sha256\": \"be142840c010710cb2a5b9e5c73e71d8e79ec4054c15661699d60bfa627be96a\"\n        },\n        {\n          \"path\": \"notes.txt\",\n          \"bytes\": 45,\n          \"sha256\": \"2f734ee5af2a690363aafda3f4d358fe030d9f118b779afe5e17018d4b17a66e\"\n        }\n      ],\n      \"all_payloads_crc_checked\": true\n    }\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "line-4/tools/apidelta/apidelta.py",
+      "compare",
+      "line-4/tools/apidelta/imd-openapi.json",
+      "gathering/imd-openapi-current.json"
+    ],
+    "exit": 0,
+    "stdout": "{\n  \"schema\": \"apidelta-report-v1\",\n  \"perspective\": \"existing clients upgrading to the new description\",\n  \"status\": \"no_detected_breakage\",\n  \"counts\": {\n    \"breaking\": 0,\n    \"review\": 0,\n    \"info\": 0\n  },\n  \"operations_compared\": 5,\n  \"findings\": [],\n  \"limits\": \"Static conservative subset analysis, not a full OpenAPI validator or proof of runtime compatibility. Review findings are unresolved.\",\n  \"old_sha256\": \"be142840c010710cb2a5b9e5c73e71d8e79ec4054c15661699d60bfa627be96a\",\n  \"new_sha256\": \"be142840c010710cb2a5b9e5c73e71d8e79ec4054c15661699d60bfa627be96a\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "line-2/tools/safezip/safezip.py",
+      "extract",
+      "test/scratch/bundle-trial/old.zip",
+      "test/scratch/bundle-trial/extracted"
+    ],
+    "exit": 0,
+    "stdout": "{\n  \"ok\": true,\n  \"mode\": \"extract\",\n  \"entries\": [\n    {\n      \"path\": \"openapi.json\",\n      \"kind\": \"file\",\n      \"bytes\": 23132,\n      \"sha256\": \"be142840c010710cb2a5b9e5c73e71d8e79ec4054c15661699d60bfa627be96a\"\n    },\n    {\n      \"path\": \"notes.txt\",\n      \"kind\": \"file\",\n      \"bytes\": 45,\n      \"sha256\": \"2f734ee5af2a690363aafda3f4d358fe030d9f118b779afe5e17018d4b17a66e\"\n    }\n  ],\n  \"total_bytes\": 23177,\n  \"content_checked\": true\n}\n",
+    "stderr": ""
+  }
+]

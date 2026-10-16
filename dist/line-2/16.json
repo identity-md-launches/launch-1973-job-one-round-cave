@@ -1,0 +1,10 @@
+{
+  "name": "Not painted yet",
+  "image": "https://api.imd.fun/artifacts/09ee8caaf2f2f23c437db97f072627760da64d33dbd2b3409379a24a4a38d26a",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Lava"
+    }
+  ]
+}

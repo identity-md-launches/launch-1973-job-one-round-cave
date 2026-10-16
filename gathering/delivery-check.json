@@ -1,0 +1,29 @@
+{
+  "line_folder_integrity": "all four unchanged",
+  "placeholder_records": 100,
+  "painted_records": 5,
+  "record_links_in_gallery": 105,
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG",
+  "preview_dimensions": [
+    512,
+    512
+  ],
+  "preview_format": "JPEG",
+  "preview_bytes": 77338,
+  "artifact_sha256": "62f3be7543124fd821ed261d83b8fdb1508076e1b223e99c8f0be7eb29129b91",
+  "all_delivered_nonartifact_files_under_100KB": true,
+  "shared_vendored_sources_match_lines": true,
+  "check_suites": {
+    "workplan": "passed, including 150 seeded dependency graphs",
+    "safezip": 16,
+    "rewardsplit": 15,
+    "apidelta": 44,
+    "api_bundle": 10
+  },
+  "live_imd_capture": "HTTP 200; identical to line 4 capture",
+  "unmet_visual_requirements": []
+}
