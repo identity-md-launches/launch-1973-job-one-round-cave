@@ -1,0 +1,26 @@
+{
+  "wall": {
+    "path": "artifacts/line-3/wall.png",
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "0755da24f89829e61b048f6e6e11409900dfd5af6ab7d155eb8782eb9ab7835d"
+  },
+  "thumbnail": {
+    "path": "dist/line-3/01.jpg",
+    "format": "JPEG",
+    "width": 512,
+    "height": 512
+  },
+  "visual_review": "Human-style visual inspection by the contributing worker using the displayed generated image; no independent visual approval.",
+  "visible_hands": 1,
+  "digits_on_visible_hand": 5,
+  "other_hand": "concealed behind the bowl",
+  "handprints_or_stencils": 0,
+  "unmet_visual_requirements": [],
+  "limitations": [
+    "Generative editing preserves the composition and recognizable rock features but is not a pixel-identical preservation proof.",
+    "The painting depicts symbolic reward units, not actual on-chain payments."
+  ],
+  "generation": "Built-in imagegen; precise-object-edit of the supplied bare Lava cave."
+}

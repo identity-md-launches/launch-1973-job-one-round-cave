@@ -1,0 +1,8 @@
+{
+  "budget": "1",
+  "contributors": [
+    {"id": "build", "weight": "1"},
+    {"id": "research", "weight": "1"},
+    {"id": "review", "weight": "1"}
+  ]
+}
